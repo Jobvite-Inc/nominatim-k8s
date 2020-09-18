@@ -37,11 +37,11 @@ Then point your web browser to [http://localhost:8080/](http://localhost:8080/)
 #### Installing Chart
 - `helm repo add jobvite-nominatim https://jobvite-inc.github.io/nominatim-k8s`
 - `helm install jobvite-nominatim/nominatim -n nominatim`
--
+
 #### External Database
 
  1. Bring up your postgresql database and copy the appropriate version of the nominatim.so file to the database server.
- 2.  [Chart Install](#Installing Chart)
+ 2.  [Chart Install](#installing-chart)
 
 #### Internal Database
 Initial deployment flow:
